@@ -1,0 +1,373 @@
+body {
+  min-height: 1600px;
+  padding-top: 70px;
+
+  background-image: url(../images/perfect_grass_body_background_1.jpeg);
+
+}
+
+footer{
+	/*background-color: #f43b3b;*/
+	margin-top: 50px;
+	padding-top: 20px;
+	padding-bottom: 150px;
+}
+
+footer p{
+	color: white;
+	font-size: 15px;
+}
+
+#navbar2 {
+	background-color:#176cba;
+	padding-right: 10px;
+	border-color:#176cba;
+}
+
+#navbar2 a {
+	background-color:#176cba;
+	padding-right: 10px;
+	color: white;
+
+}
+
+#navbar2 li:active{
+	background-color:#176cba;
+	padding-right: 0px
+	border-color:#176cba;
+	color: #b79a00;
+}
+
+#navbar2 li:active a{
+	background-color:#176cba;
+	padding-right: 10px;
+	border-color:#176cba;
+	color: #b79a00;
+}
+
+
+
+/* FIX SCROLLSPY STYLING BELOW*/
+
+
+/*
+.navbar-nav .navbar-collapse a:hover{
+	color: white;
+	background-color: #176cba;
+}
+.navbar-nav li:hover{
+	color: white;
+	background-color: #176cba;
+}
+
+#navbar li:active{
+	background-color: #176cba;
+}
+
+#navbar a:active{
+	background-color: #176cba;
+	color: #b79a00;
+	font-size: 20px;
+}
+
+#navbar .nav a:active{
+	background-color: #176cba;
+		color: #b79a00;
+	font-size: 20px;
+}
+ FIX SCROLLSPY STYLING ABOVE*/
+
+
+
+
+
+.dropdown-menu {
+	background-color: #176cba;
+
+}
+.dropdown-menu a{
+	font-size: 13px;
+}
+
+.dropdown-header{
+	color: white;
+	text-decoration: underline;
+}
+
+.jumbotron {
+	background-image: url(../images/sakhisizweSOE_jumbotron_background_1.jpg);
+	text-align: center;
+
+}
+
+.jumbotron img{
+
+	margin-top: -50px;
+	width: 450px;
+	height: 445px;
+	margin-left: -100px;
+}
+
+.jumbotron h1{
+	color: white;
+	font-size: 70px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	margin-left: 5px;
+}
+
+.jumbotron p{
+	color: white;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.jumbotron .btn{
+	background-color: #176cba;
+	font-size: 25px;
+	font-weight: 300
+  margin-top: -40px;
+  margin-left: -54px;  
+}
+
+.sakhisizwePostScript{
+background-image: -webkit-linear-gradient(top, #176cba, #c7a667); /* For Chrome and Safari */
+background-image:  -moz-linear-gradient(top, #176cba, #c7a667); /* For old Fx (3.6 to 15) */
+background-image:  -ms-linear-gradient(top, #176cba, #c7a667); /* For pre-releases of IE 10*/
+background-image:  -o-linear-gradient(top, #176cba, #c7a667); /* For old Opera (11.1 to 12.0) */
+background-image:  linear-gradient(to bottom, #176cba, #c7a667); /* Standard syntax; must be last */
+text-align: center;
+color: white;
+position: relative;
+margin-bottom: 20px;
+}
+
+.sakhisizwePostScript hr{
+	border-top: 1px solid white;
+	margin-top: -5px;
+	width: 160px;
+}
+
+.sakhisizwePostScript h2{
+	color: white;
+	font-size: 20px;
+}
+
+.sakhisizwePostScript p{
+	color: white;
+	font-size: 15px;
+}
+
+.sakhisizwePostScript a{
+	color: white;
+	font-size: 15px;
+}
+
+.sakhisizwePostScript li{
+	color: white;
+	font-size: 15px;
+	text-align: left;
+}
+
+#partnershipImage{
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	vertical-align: right;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+#myCarousel {
+	margin-top: 0px;
+  margin-bottom: 15px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  position: absolute;
+	top: 10px;
+}
+
+.carousel-caption a{
+	background-color: #176cba;
+}
+
+.carousel-caption p{
+  position: absolute;
+	bottom: 17.5px;
+}
+
+.carousel .btn {
+	background-color: #176cba;
+	position: absolute;
+	bottom: 70px;
+	text-align: center;
+	left: 273.5px;
+
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+.whatWeOffer{
+	background-color: #d6d6d6;
+	padding-left: 0px;
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+
+
+.span4 {
+	text-align: center;
+}
+
+.span4 h2{
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+.span4 a{
+	margin-top: 20px;
+}
+
+
+
+
+/*Media queries for responsiveness*/
+@media(max-width : 1199px) {
+	
+	.jumbotron img{	
+		margin-top: -50px;
+		margin-left: -84px;
+		width: 350px;
+		height: 345px;
+	}
+
+	.jumbotron h1{	
+		color: white;
+	    font-size: 56px;
+	    margin-top: 5px;
+	    margin-bottom: 15px;
+	    margin-left: 5px;
+	}
+
+	.jumbotron p{	
+	    color: white;
+	    font-size: 16px;
+	    font-weight: 200;
+	}
+
+	.jumbotron .btn{
+	background-color: #176cba;
+	font-size: 20px;
+	font-weight: 200
+  	margin-top: -40px;
+  	margin-left: -65px;  
+}
+
+.body{
+	min-height: 1300px;
+}
+
+.carousel-caption .btn{
+	background-color: #176cba;
+    position: absolute;
+    bottom: 70px;
+    text-align: center;
+    left: 210px;
+}
+
+	.jumbotron h1{	
+		color: white;
+	    font-size: 45px;
+	    margin-top: -15px;
+	    margin-bottom: 15px;
+	    margin-left: 5px;
+	}
+
+	.jumbotron p{	
+			color: white;
+	    font-size: 13px;
+	    margin-top: 100px;
+	    margin-bottom: 50px;
+	    margin-left: 5px;
+	}
+
+
+
+		
+
+}
+
+
+
+@media only screen and (max-width : 991px) {
+	.jumbotron img{	
+		margin-top: -50px;
+		width: 150px;
+		height: 150px;
+		margin-left: 0px;
+	}
+
+	.jumbotron .btn{	
+		background-color: #176cba;
+    font-size: 15px;
+    font-weight: 200
+ 		margin-top: 10px;
+    margin-left: -5px;
+	}
+
+
+	.carousel-caption .btn{
+		background-color: #176cba;
+    position: absolute;
+    bottom: 85px;
+    left: 155px;
+    text-align: center;
+   }
+
+   .carousel-caption h1{	
+		color: white;
+	  font-size: 30px;
+	  margin-top: 15px;
+	  margin-bottom: 15px;
+	  margin-left: 5px;
+	}
+
+	.carousel-caption h1{	
+		color: white;
+	  font-size: 13px;
+
+	}
+
+}
+
+
+
+@media only screen and (max-width : 767px) {
+
+}
+
+
+
+@media only screen and (max-width : 480px) {
+
+}
+
+
+
+
