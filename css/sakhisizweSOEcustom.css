@@ -1,9 +1,8 @@
 body {
   min-height: 800px;
   padding-top: 70px;
-
   background-image: url(../images/perfect_grass_body_background_1.jpeg);
-
+  position:relative;
 }
 
 footer{
@@ -18,20 +17,39 @@ footer p{
 	font-size: 15px;
 }
 
-#navbar2 {
+#navscroll {
 	background-color:#176cba;
 	padding-right: 10px;
-	border-color:#176cba;
+	border-color:#176cba 1px solid;
 }
 
-#navbar2 a {
+#navscroll a {
 	background-color:#176cba;
 	padding-right: 10px;
 	color: white;
-
 }
 
-#navbar2 li:active{
+#navscroll a:active {
+	background-color:#176cba;
+	padding-right: 0px
+	border-color:#176cba;
+	color: #b79a00;
+}
+
+/* ---- DELETE BELOW NNAVSCROLL/SPY fixes ---- */
+/*#navscroll a {
+	background-color:#176cba;
+	padding-right: 10px;
+	color: white;
+}
+
+#navscroll a:active {
+	background-color:#176cba;
+	padding-right: 10px;
+	color: white;
+}*/
+
+/*#navbar2 li:active{
 	background-color:#176cba;
 	padding-right: 0px
 	border-color:#176cba;
@@ -43,7 +61,7 @@ footer p{
 	padding-right: 10px;
 	border-color:#176cba;
 	color: #b79a00;
-}
+}*/
 
 
 
@@ -76,6 +94,8 @@ footer p{
 	font-size: 20px;
 }
  FIX SCROLLSPY STYLING ABOVE*/
+
+ /* ---- DELETE BELOW NNAVSCROLL/SPY fixes ---- */
 
 
 
