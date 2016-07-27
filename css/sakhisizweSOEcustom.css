@@ -23,15 +23,23 @@ footer p{
 	border-color:#176cba 1px solid;
 }
 
+
+
 #navscroll a {
 	background-color:#176cba;
 	padding-right: 10px;
-	color: white;
+	color: white; /*this paints all a-tags white*/
 }
 
 #navscroll a:active {
 	background-color:#176cba;
-	padding-right: 0px
+	padding-right: 10px;
+	color: #b79a00;/*this paints all a-tags gold on active, trying to sync with scrollspy*/
+}
+
+#navscroll li a:hover {
+	background-color:#176cba;
+	padding-right: 10px
 	border-color:#176cba;
 	color: #b79a00;
 }
